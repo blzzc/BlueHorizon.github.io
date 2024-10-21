@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: auto;
+    background-position:center;
+    justify-content: center;
+}
+.navbar {
+    width:90%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  margin:auto;
+  padding:20px 0;
+}
+.logo {
+  width: 140px;
+  cursor: pointer;
+}
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+.row {
+  display: flex;
+  height: 80%;
+  align-items: center;
+}
+.col {
+  flex-basis: 50%;
+  align-items:center;
+}
+h1 {
+  color: #fff;
+  font-size: 80px;
+}
+p {
+  color: white;
+  font-size: 11px;
+  line-height: 15px;
+}
+button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.card{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  cursor:pointer;
+  margin: 10px 10px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+ .card1{
+  background-image: url(about\ us-img/long2.jpg);
+ }
+ .card2{
+  background-image: url(about\ us-img/long1.jpg);
+ }
+ .card3{
+  background-image: url(about\ us-img/pai.png);
+ }
+ .card4{
+  background-image: url(about\ us-img/long1.jpg);
+ }
+ .card5{
+    background-image: url(about\ us-img/long2.jpg);
+   }
+
+ .card:hover{
+   transform: translateY(-10px);
+ }
+ h3{
+   color:white;
+   text-shadow: 0 0 5px #999;
+ }
+ .card p{
+   text-shadow:  0 0 5px #000;
+   font-size: 15px;
+ }
+ .theme-container {
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(27, 27, 27, 0.75)),url(theme-img/red-tide2.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+a{
+    text-decoration: none;
+}
+
+word{
+    font-size: 40px;
+    width: 160px;
+    height: 40px;
+    border: 1px solid;
+    overflow: hidden;
+  display: flex;
+}
